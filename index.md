@@ -7,6 +7,12 @@ E-mail : xinyi.tong@whu.edu.cn
 ## About
 Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](http://www.lmars.whu.edu.cn/en/)) at [Wuhan University](https://en.whu.edu.cn/), supervised by Prof. [Gui-Song Xia](http://captain.whu.edu.cn/xia_En.html) and Prof. [Liangpei Zhang](http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html). My major is remote sensing, and my research interests include land-cover classification, transfer learning, change detection, content-based retrieval, ect.
 
+## Education
+- Ph.D. in Photogrammetry and Remote Sensing, 2017-present, LIESMARS, Wuhan University
+- M.Sc. in Survey and Mapping Engineering, 2015-2017, LIESMARS, Wuhan University
+- B.Sc. in Remote Sensing Science and Technology, 2010-2015, School of Remote Sensing and Information Engineering, Wuhan University
+
+
 
 
 ### Jekyll Themes
