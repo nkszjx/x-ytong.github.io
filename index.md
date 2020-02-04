@@ -21,7 +21,7 @@ Land-Cover Classification with High-Resolution Remote Sensing Images Using Trans
 
 X.-Y. Tong, G.-S. Xia, Q. Lu, H. Shen, S. Li, S. You, L. Zhang.
 
-Remote Sensing of Environment, 2020, doi : 10.1016/j.rse.2019.111322. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0034425719303414) [arXiv](https://arxiv.org/pdf/1807.05713.pdf)
+Remote Sensing of Environment, 2020, doi : 10.1016/j.rse.2019.111322. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0034425719303414) [[arXiv]](https://arxiv.org/pdf/1807.05713.pdf)
 
 
 Exploiting Deep Features for Remote Sensing Image Retrieval : A Systematic Investigation.
