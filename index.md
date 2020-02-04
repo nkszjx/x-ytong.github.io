@@ -1,6 +1,6 @@
 # Xin-Yi Tong
 
-<table border="0">
+<table>
   <tr>
     <td width="75%">
       <p><b>Ph.D. Candidate, [CAPTAIN](http://captain.whu.edu.cn/) Group</b></p>
