@@ -33,31 +33,64 @@ Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineer
     <td width="75%">
     <p><b>Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models.</b></p>
     <p>X.-Y. Tong, G.-S. Xia, Q. Lu, H. Shen, S. Li, S. You, L. Zhang.</p>
-    <p>Remote Sensing of Environment, 2020, doi : 10.1016/j.rse.2019.111322. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0034425719303414/">[paper]</a>
-      <a href="https://arxiv.org/pdf/1807.05713.pdf/">[PDF]</a>
+    <p>Remote Sensing of Environment, 2020, doi : 10.1016/j.rse.2019.111322. 
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0034425719303414/">[paper]</a>
+      <a href="https://arxiv.org/pdf/1807.05713.pdf/">[PDF]</a></p>
     </td>
   </tr>
 </table>
 
-
-
-
-
-Exploiting Deep Features for Remote Sensing Image Retrieval : A Systematic Investigation.
-
-X.-Y. Tong, G.-S. Xia, F. Hu, Y. Zhong, M. Datcu, L. Zhang.
-
-IEEE Transactions on Big Data, 2019, doi : 10.1109/TBDATA.2019.2948924. [[paper]](https://ieeexplore.ieee.org/document/8880494) [[arXiv]](https://arxiv.org/pdf/1707.07321.pdf)
+<table border="0">
+  <tr>
+    <td width="25%">
+    <img src="/photo.jpg" width="100%"> 
+    </td>
+    <td width="75%">
+    <p><b>Exploiting Deep Features for Remote Sensing Image Retrieval : A Systematic Investigation.</b></p>
+    <p>X.-Y. Tong, G.-S. Xia, F. Hu, Y. Zhong, M. Datcu, L. Zhang.</p>
+    <p>IEEE Transactions on Big Data, 2019, doi : 10.1109/TBDATA.2019.2948924. 
+      <a href="https://ieeexplore.ieee.org/document/8880494/">[paper]</a>
+      <a href="https://arxiv.org/pdf/1707.07321.pdf/">[PDF]</a></p>
+    </td>
+  </tr>
+</table>
 
 - ### Conference proceedings
-Large-Scale Land Cover Classification in Gaofen-2 Satellite Imagery.
-X.-Y. Tong, Q. Lu, G.-S. Xia, L. Zhang.
-IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2018. (Oral)
+<table border="0">
+  <tr>
+    <td width="25%">
+    <img src="/photo.jpg" width="100%"> 
+    </td>
+    <td width="75%">
+    <p><b>Large-Scale Land Cover Classification in Gaofen-2 Satellite Imagery.</b></p>
+    <p>X.-Y. Tong, Q. Lu, G.-S. Xia, L. Zhang.</p>
+    <p>IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2018. (Oral)</p>
+    </td>
+  </tr>
+</table>
 
-Delving into Deep Representations for Remote Sensing Image Retrieval.
-F. Hu, X.-Y. Tong, G.-S. Xia, L. Zhang.
-IEEE International Conference on Signal Processing (ICSP), 2016. (Oral)
+<table border="0">
+  <tr>
+    <td width="25%">
+    <img src="/photo.jpg" width="100%"> 
+    </td>
+    <td width="75%">
+    <p><b>Delving into Deep Representations for Remote Sensing Image Retrieval.</b></p>
+    <p>F. Hu, X.-Y. Tong, G.-S. Xia, L. Zhang.</p>
+    <p>IEEE International Conference on Signal Processing (ICSP), 2016. (Oral)</p>
+    </td>
+  </tr>
+</table>
 
-A benchmark for scene classification of high spatial resolution remote sensing imagery.
-J. Hu, T. Jiang, X.-Y. Tong, G.-S. Xia, L. Zhang.
-IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2015. (Oral)
+<table border="0">
+  <tr>
+    <td width="25%">
+    <img src="/photo.jpg" width="100%"> 
+    </td>
+    <td width="75%">
+    <p><b>A benchmark for scene classification of high spatial resolution remote sensing imagery.</b></p>
+    <p>J. Hu, T. Jiang, X.-Y. Tong, G.-S. Xia, L. Zhang.</p>
+    <p>IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2015. (Oral)</p>
+    </td>
+  </tr>
+</table>
