@@ -3,9 +3,9 @@
 <table border="0">
   <tr>
     <td width="75%">
-    <p><b>Ph.D. Candidate, <a href="http://captain.whu.edu.cn/">CAPTAIN</a> Group</b></p>
-    <p><b>LIESMARS, Wuhan University, China</b></p>
-    <p><b>E-mail : xinyi.tong@whu.edu.cn</b></p>
+    <p>Ph.D. Candidate, <a href="http://captain.whu.edu.cn/">CAPTAIN</a> Group</p>
+    <p>LIESMARS, Wuhan University, China</p>
+    <p>E-mail : xinyi.tong@whu.edu.cn</p>
     </td>
     <td width="25%">
       <img src="/photo.jpg" width="100%"> 
