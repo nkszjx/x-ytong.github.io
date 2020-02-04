@@ -31,7 +31,7 @@ Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineer
     <img src="/photo.jpg" width="100%"> 
     </td>
     <td width="75%">
-    <p>Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models.</p>
+    <p><b>Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models.</b></p>
     <p>X.-Y. Tong, G.-S. Xia, Q. Lu, H. Shen, S. Li, S. You, L. Zhang.</p>
     <p>Remote Sensing of Environment, 2020, doi : 10.1016/j.rse.2019.111322. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0034425719303414/">[paper]</a>
       <a href="https://arxiv.org/pdf/1807.05713.pdf/">[PDF]</a>
