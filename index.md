@@ -1,17 +1,23 @@
 # Xin-Yi Tong
 
-<table>
-  <tr>
-    <td width="75%">
-      <p><b>Ph.D. Candidate, <a href="http://captain.whu.edu.cn/">CAPTAIN</a> Group</b></p>
-      <p><b>LIESMARS, Wuhan University, China</b></p>
-      <p><b>E-mail : xinyi.tong@whu.edu.cn</b></p>
-    </td>
-    <td width="25%">
-      <img src="/photo.jpg" width="100%">
-    </td>
-  </tr>
-</table>
+<div class="brief">
+  <div class="photo"><img src="/photo.jpg"></div>	
+  <div class="intro">  
+    <p><b>Ph.D. Candidate, <a href="http://captain.whu.edu.cn/">CAPTAIN</a> Group</b></p>
+    <p><b>LIESMARS, Wuhan University, China</b></p>
+    <p><b>E-mail : xinyi.tong@whu.edu.cn</b></p>
+  </div>
+</div>
+
+.photo{
+    float:left;
+    width:20%;
+}
+
+.intro{
+    float:right;
+    width:80%;
+}
 
 
 ## About Me
