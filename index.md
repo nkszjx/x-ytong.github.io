@@ -1,10 +1,18 @@
 # Xin-Yi Tong
 
-Ph.D. Candidate, [CAPTAIN](http://captain.whu.edu.cn/) Group
+<table border="0">
+  <tr>
+    <td width="75%">
+      <p><b>Ph.D. Candidate, [CAPTAIN](http://captain.whu.edu.cn/) Group</b></p>
+      <p><b>LIESMARS, Wuhan University, China</b></p>
+      <p><b>E-mail : xinyi.tong@whu.edu.cn</b></p>
+    </td>
+    <td width="25%">
+      <img src="/photo.jpg" width="100%">
+    </td>
+  </tr>
+</table>
 
-LIESMARS, Wuhan University
-
-E-mail : xinyi.tong@whu.edu.cn
 
 ## About Me
 Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](http://www.lmars.whu.edu.cn/en/)) at [Wuhan University](https://en.whu.edu.cn/), supervised by Prof. [Gui-Song Xia](http://captain.whu.edu.cn/xia_En.html) and Prof. [Liangpei Zhang](http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html). My major is remote sensing, and my research interests include land-cover classification, transfer learning, change detection, content-based retrieval, ect.
