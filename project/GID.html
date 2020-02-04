@@ -1,16 +1,16 @@
 <html lang="en"><head>
     <meta charset="UTF-8">
-    <title>Xin-Yi Tong</title>
+    <title>GID Dataset</title>
 <style id="system" type="text/css">
     h1,h2,h3,h4,h5,h6,p,blockquote {    margin: 0;    padding: 0;}
     body {font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; 
-        font-size: 15px; line-height: 27px; color: #737373; margin: 10px 13px 10px 13px;}
+        font-size: 15px; line-height: 20px; color: #737373; margin: 10px 13px 10px 13px;}
     tr,td {font-size: 15px; color: #737373; text-align: justify; text-justify: inter-character;}
     ul {text-align: justify; text-justify: inter-character;}
-    a {color: #c39797; text-decoration: none;}
-    a:hover {color: #ff7f50; text-decoration: none;}
+    a {color: #ff7f50; text-decoration: none;}
+    a:hover {color: #c39797; text-decoration: none;}
     a img {border: none;}
-    p {margin-bottom: 9px;}
+    p {margin-bottom: 9px; text-align: justify; text-justify: inter-character;}
     h1,h2,h3,h4,h5,h6 {color: #20b2aa; line-height: 36px;}
     h1 {margin-top: 50px; margin-bottom: 18px; font-size: 30px;}
     h2 {margin-top: 20px; font-size: 24px;}
@@ -31,36 +31,59 @@
     @media screen and (min-width: 768px) {body {width: 748px; margin:10px auto;}}
     </style><style id="custom" type="text/css"></style></head>
 
-<body marginheight="0"><h1>Personal Page of Xin-Yi Tong</h1>
+<body marginheight="0">
+	<h2>Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models</h2>
     
-<div style="border:0.8px solid #dddddd"></div> 
-    
-<table border="0">
-  <tbody><tr>
-    <td width="80%">
-    <p>Ph.D. Candidate, <a href="http://captain.whu.edu.cn/">CAPTAIN</a> Group</p>
-    <p>LIESMARS, Wuhan University, China</p>
-    <p>E-mail : xinyi.tong@whu.edu.cn</p>
-    </td>
-    <td width="20%">
-      <img src="/photo.jpg" width="100%"> 
-    </td>
-  </tr>
-</tbody></table>
+<div style="border:2px solid #FFFFFF "></div>
 
-<div style="border:0.8px solid #dddddd"></div>   
+<p>Xin-Yi Tong, Gui-Song Xia, Qikai Lu, Huanfeng Shen, Shengyang Li, Shucheng You, Liangpei Zhang</p>
 
-<h2>About Me</h2>
-<ul>Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineering in Surveying, 
-    Mapping and Remote Sensing (<a href="http://www.lmars.whu.edu.cn/en/">LIESMARS</a>) at 
-    <a href="https://en.whu.edu.cn/">Wuhan University</a>, supervised by Prof. 
-    <a href="http://captain.whu.edu.cn/xia_En.html">Gui-Song Xia</a> and Prof. 
-    <a href="http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html">Liangpei Zhang</a>. 
-    My major is remote sensing, and my research interests include 
-    land-cover classification, transfer learning, change detection, content-based retrieval, ect.</ul>
+<h2>Abstract</h2>
+<p>In recent years, large amount of high spatial-resolution remote sensing (HRRS) images are available for land-cover mapping. 
+However, due to the complex information brought by the increased spatial resolution and the data disturbances caused by 
+different conditions of image acquisition, it is often difficult to find an efficient method for achieving accurate land-cover 
+classification with high-resolution and heterogeneous remote sensing images. In this paper, we propose a scheme to apply deep 
+model obtained from labeled land-cover dataset to classify unlabeled HRRS images. The main idea is to rely on deep neural 
+networks for presenting the contextual information contained in different types of land-covers and propose a pseudo-labeling 
+and sample selection scheme for improving the transferability of deep models. To pre-train deep model specific to HRRS images, 
+we create a large-scale land-cover dataset containing <b>150 Gaofen-2 satellite images</b>. Experiments on multi-source HRRS 
+images, including Gaofen-2, Gaofen-1, Jilin-1, Ziyuan-3, Sentinel-2A, and Google Earth platform data, show encouraging results 
+and demonstrate the applicability of the proposed scheme to land-cover classification with multi-source HRRS images.</p>
 
+<h2>Dataset</h2>
+<p>We construct a large-scale land-cover dataset with Gaofen-2 (GF-2) satellite images. This new dataset, which is named as 
+Gaofen Image Dataset (GID), has superiorities over the existing land-cover dataset because of its large coverage, wide distribution, 
+and high spatial resolution. GID consists of two parts: a large-scale classification set and a fine land-cover classification set. 
+The large-scale classification set contains 150 pixel-level annotated GF-2 images, and the fine classification set is composed of 
+30,000 multi-scale image patches coupled with 10 pixel-level annotated GF-2 images. The training and validation data with 15 
+categories is collected and re-labeled based on the training and validation images with 5 categories, respectively.</p>
+	
 
 
+<h3>- Large-scale classification set</h3>
+
+	
+
+
+<h3>- Fine land-cover classification set</h3>
+
+	
+
+
+<h3>- Download</h3>
+<p>GID can be download from Onedrive or Baidudrive:</p>
+<p><li>Link: <a href="https://whueducn-my.sharepoint.com/:f:/g/personal/xinyi_tong_whu_edu_cn/El2LVTJPk3VAuL7_eENrZ68BLPDsJJvm80uYbwXABx5Wuw?e=GwePwA/"><b>Onedrive</b></a></li></p>
+<p><li>Link: <a href="https://pan.baidu.com/s/1c1lP-rlNjbfCPeaKPFteuA/"><b>Baidudrive</b></a></li></p>
 		
-            
+<h2>Experiment</h2>
+<p>We test our algorithm and analyse the experimental results in this section. Two types of land-cover classification issues are 
+examined: 1) transferring deep models to classify HRRS images captured with the same sensor and under different conditions, 
+2) transferring deep models to classify multi-source HRRS images. For performance comparison, several object-based land-cover 
+classification methods are utilized.</p>
+<h3>- Experiments on Gaofen-2 images</h3>
+<h3>- Experiments on multi-source images</h3>
+
+<h2>Contact</h2>
+<p>E-mail : xinyi.tong@whu.edu.cn</p>
+	
 </body></html>
