@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td width="75%">
-      <p><b>Ph.D. Candidate, [CAPTAIN](http://captain.whu.edu.cn/) Group</b></p>
+      <p><b>Ph.D. Candidate, <a href="http://captain.whu.edu.cn/" title="CAPTAIN">click here!</a> Group</b></p>
       <p><b>LIESMARS, Wuhan University, China</b></p>
       <p><b>E-mail : xinyi.tong@whu.edu.cn</b></p>
     </td>
