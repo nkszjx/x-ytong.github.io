@@ -31,4 +31,14 @@ X.-Y. Tong, G.-S. Xia, F. Hu, Y. Zhong, M. Datcu, L. Zhang.
 IEEE Transactions on Big Data, 2019, doi : 10.1109/TBDATA.2019.2948924. [[paper]](https://ieeexplore.ieee.org/document/8880494) [[arXiv]](https://arxiv.org/pdf/1707.07321.pdf)
 
 - ### Conference proceedings
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Large-Scale Land Cover Classification in Gaofen-2 Satellite Imagery.
+X.-Y. Tong, Q. Lu, G.-S. Xia, L. Zhang.
+IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2018. (Oral)
+
+Delving into Deep Representations for Remote Sensing Image Retrieval.
+F. Hu, X.-Y. Tong, G.-S. Xia, L. Zhang.
+IEEE International Conference on Signal Processing (ICSP), 2016. (Oral)
+
+A benchmark for scene classification of high spatial resolution remote sensing imagery.
+J. Hu, T. Jiang, X.-Y. Tong, G.-S. Xia, L. Zhang.
+IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2015. (Oral)
