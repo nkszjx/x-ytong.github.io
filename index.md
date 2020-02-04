@@ -16,7 +16,7 @@ Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineer
 
 ## Publications
 
-### Journal articles
+### -Journal articles
 Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models.
 
 X.-Y. Tong, G.-S. Xia, Q. Lu, H. Shen, S. Li, S. You, L. Zhang.
@@ -30,5 +30,5 @@ X.-Y. Tong, G.-S. Xia, F. Hu, Y. Zhong, M. Datcu, L. Zhang.
 
 IEEE Transactions on Big Data, 2019, doi : 10.1109/TBDATA.2019.2948924. [[paper]](https://ieeexplore.ieee.org/document/8880494) [[arXiv]](https://arxiv.org/pdf/1707.07321.pdf)
 
-### Conference proceedings
+### -Conference proceedings
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
