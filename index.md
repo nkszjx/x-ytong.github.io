@@ -1,32 +1,13 @@
 # Xin-Yi Tong
 
-You can use the [editor on GitHub](https://github.com/x-ytong/x-ytong.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Ph.D. Candidate, [CAPTAIN](http://captain.whu.edu.cn/) Group
+LIESMARS, Wuhan University
+E-mail : xinyi.tong@whu.edu.cn
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About
+Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](http://www.lmars.whu.edu.cn/en/)) at [Wuhan University](https://en.whu.edu.cn/), supervised by Prof. [Gui-Song Xia](http://captain.whu.edu.cn/xia_En.html) and Prof. [Liangpei Zhang](http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html). My major is remote sensing, and my research interests include land-cover classification, transfer learning, change detection, content-based retrieval, ect.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
