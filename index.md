@@ -25,11 +25,22 @@ Currently I am a Ph.D. candidate in State Key Laboratory of Information Engineer
 ## Publications
 
 - ### Journal articles
-Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models.
+<table border="0">
+  <tr>
+    <td width="25%">
+    <img src="/photo.jpg" width="100%"> 
+    </td>
+    <td width="75%">
+    <p>Land-Cover Classification with High-Resolution Remote Sensing Images Using Transferable Deep Models.</p>
+    <p>X.-Y. Tong, G.-S. Xia, Q. Lu, H. Shen, S. Li, S. You, L. Zhang.</p>
+    <p>Remote Sensing of Environment, 2020, doi : 10.1016/j.rse.2019.111322. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0034425719303414/">[paper]</a>
+      <a https://arxiv.org/pdf/1807.05713.pdf/">[PDF]</a>
+    </td>
+  </tr>
+</table>
 
-X.-Y. Tong, G.-S. Xia, Q. Lu, H. Shen, S. Li, S. You, L. Zhang.
 
-Remote Sensing of Environment, 2020, doi : 10.1016/j.rse.2019.111322. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0034425719303414) [[arXiv]](https://arxiv.org/pdf/1807.05713.pdf)
+
 
 
 Exploiting Deep Features for Remote Sensing Image Retrieval : A Systematic Investigation.
