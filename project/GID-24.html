@@ -1,0 +1,89 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>GID-24</title>
+<style id="system" type="text/css">
+    h1,h2,h3,h4,h5,h6,p,blockquote {    margin: 0;    padding: 0;}
+    body {font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; 
+        font-size: 15px; line-height: 20px; color: #737373; margin: 10px 13px 10px 13px;}
+    tr,td {font-size: 15px; color: #737373; text-align: justify; text-justify: inter-character;}
+    ul {text-align: justify; text-justify: inter-character;}
+    a {color: #ff7f50; text-decoration: none;}
+    a:hover {color: #c39797; text-decoration: none;}
+    a img {border: none;}
+    p {margin-bottom: 9px; text-align: justify; text-justify: inter-character;}
+    h1,h2,h3,h4,h5,h6 {color: #20b2aa; line-height: 36px;}
+    h1 {margin-top: 50px; margin-bottom: 18px; font-size: 26px;}
+    h2 {margin-top: 24px; font-size: 20px;}
+    h3 {font-size: 18px;}
+    h4 {font-size: 16px;}
+    h5 {font-size: 14px;}
+    h6 {font-size: 13px;}
+    hr {margin: 0 0 19px; border: 0; border-bottom: 1px solid #ccc;}
+    blockquote {padding: 13px 13px 21px 15px; margin-bottom: 18px; font-family:georgia,serif; font-style: italic;}
+    blockquote:before {content:"C"; font-size:40px; margin-left:-10px; font-family:georgia,serif; color:#eee;}
+    blockquote p {font-size: 14px; font-weight: 300; line-height: 18px; margin-bottom: 0; font-style: italic;}
+    code, pre {font-family: Monaco, Andale Mono, Courier New, monospace;}
+    code {background-color: #fee9cc; color: rgba(0, 0, 0, 0.75); padding: 1px 3px; font-size: 12px; 
+        -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+    pre {display: block; padding: 14px; margin: 0 0 18px; line-height: 16px; font-size: 11px; 
+        border: 1px solid #d9d9d9; white-space: pre-wrap; word-wrap: break-word;}
+    pre code {background-color: #fff; color:#737373; font-size: 11px; padding: 0;}
+    @media screen and (min-width: 768px) {body {width: 748px; margin:10px auto;}}
+    </style><style id="custom" type="text/css"></style></head>
+
+<body marginheight="0">
+<div align="center"><h1>Large-Scale Land-Cover Mapping with High-Resolution Remote Sensing Images Based on Unsupervised Domain Adaptation</h1></div>
+    
+<div style="border:2px solid #FFFFFF "></div>
+
+<div align="center">Xin-Yi Tong, Xiao Xiang Zhu</div>
+
+<h2>Introduction</h2>
+<p>High-resolution remote sensing images can provide abundant, detailed spatial information for land-cover classification, which is particularly 
+  important for studying the complex environment of human activity areas. However, due to two main reasons, high-resolution remote sensing images 
+  cannot be easily applied to land-cover mapping over large-scale geographical areas: 1) the lack of high-resolution land-cover datasets that 
+  fully reflect the distribution of real-world ground objects; 2) the limited adaptability of classification models to remote sensing images 
+  captured from different imaging conditions. In this paper, we present a large-scale land-cover dataset, <b>Gaofen Image Dataset-24 classes version</b> 
+  (GID-24). GID-24 contains 150 high-resolution Gaofen-2 satellite images, which are annotated in a category system covering artificial-constructed, 
+  agricultural, and natural classes. Moreover, we propose an unsupervised domain adaptation approach that can adapt classification models trained on 
+  labeled dataset (referred to as the source domain) to large-scale land-cover mapping on unlabeled data (referred to as the target domain). 
+  Specifically, we introduce an end-to-end siamese network consisting of two branches, which separately process images from the source and target domain. 
+  In the target domain branch, image pixels with high-confidence are assigned with pseudo-labels and then utilized for domain joint learning with the 
+  source domain branch. To mitigate negative adaptation, we adopt dynamic pseudo-label assignment and class balancing strategy in the network. 
+  Based on our dataset and approach, we implement land-cover mapping on 5 large Chinese cities severally using different data sources: PlanetScope, 
+  Gaofen-1, and Sentinel-2 satellite images. Over a total study area of 53,088 km<sup>2</sup>, our experiments show promising results and 
+  demonstrate the practicality of the proposed approach for actual land-cover mapping.</p>
+
+<h2>Land-cover Dataset</h2>
+<p>We present a large-scale land-cover classification dataset, GID-24. It has a spatial resolution of <b>4 m</b>, covers areas more than 
+  <b>50,000 km<sup>2</sup></b> in China, and contains more than <b>5 billion</b> labeled pixels. It has the advantage of rich categories, 
+  large coverage, wide distribution, and high-spatial resolution, which well reflects the distributions of real-world ground objects 
+  and can benefit to different land-cover related studies.</p>
+
+<h3><li>Distribution and Categories</li></h3>
+	  <div align="center"><img src="/figure/GID24/GID24example.png" width="70%"></div>
+
+<h3><li>Download</li></h3>
+<p>coming soon</p>
+		
+<h2>Land-cover Mapping</h2>
+<p> We propose an unsupervised domain adaptation approach for large-scale land-cover mapping. It avoids changing the domain distributions in a rigid way, 
+  but softly corrects the domain shifts according to the knowledge learned in the source domain. The negative adaptation caused by intra-domain diversity 
+  and class imbalance can therefore be mitigated by our approach even under very complicated practical situations.
+  Based on the proposed approach, we perform land-cover classification for 5 large Chinese cities. To validate the generality of our approach on different 
+  satellite images, we employ 3 data sources with diverse spatial resolutions. Concretely, PlanetScope (PS) satellite images are used for Chengdu and 
+  Shanghai, Gaofen-1 (GF-1) satellite images are used for Wuhan, Sentinel-2 (ST-2) satellite images are used for Beijing and Guangzhou.</p>
+
+<h3><li>Demonstration of Results</li></h3>
+    <div align="center"><img src="/figure/GID24/GID24wuhansmall.png" width="30%"></div>
+  
+<h3><li>Code</li></h3>
+<p>coming soon</p>
+
+<h2>Contact</h2>
+<p>E-mail : xinyi.tong@dlr.de</p>
+
+<div style="border:20px solid #FFFFFF "></div>
+
+
+</body></html>
