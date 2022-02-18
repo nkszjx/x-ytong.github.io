@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <title>GID-24</title>
 <style id="system" type="text/css">
-    h1,h2,h3,p {margin: 0; padding: 0;}
+    h1,h2,h3,h4,p {margin: 0; padding: 0;}
     body {font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; 
           font-size: 15px; line-height: 20px; color: #666666; margin: 10px 13px 10px 13px;}
     tr,td {font-size: 15px; color: #666666; text-align: justify; text-justify: inter-character;}
@@ -11,10 +11,11 @@
     a:hover {color: #c39797; text-decoration: none;}
     a img {border: none;}
     p {margin-bottom: 9px; text-align: justify; text-justify: inter-character;}
-    h1,h2,h3 {color: #668B8B; line-height: 36px;}
+    h1,h2,h3,h4 {color: #668B8B; line-height: 36px;}
     h1 {margin-top: 50px; margin-bottom: 18px; font-size: 24px;}
-    h2 {margin-top: 24px; font-size: 20px;}
-    h3 {font-size: 16px;}
+    h2 {margin-top: 24px; font-size: 22px;}
+    h3 {margin-top: 24px; font-size: 20px;}
+    h4 {font-size: 16px;}
     hr {margin: 0 0 19px; border: 0; border-bottom: 1px solid #ccc;}
     code, pre {font-family: Monaco, Andale Mono, Courier New, monospace;}
     code {background-color: #fee9cc; color: rgba(0, 0, 0, 0.75); padding: 1px 3px; font-size: 12px; 
@@ -45,20 +46,20 @@ classes. Moreover, we propose an unsupervised domain adaptation approach that ca
 and approach, we implement land-cover mapping on 5 large Chinese cities severally using different data sources: PlanetScope, Gaofen-1, and 
 Sentinel-2 satellite images.</p>
 
-<h2>Land-Cover Dataset</h2>
+<h3>Land-Cover Dataset</h3>
 <p>We present a large-scale land-cover classification dataset, GID-24. It has a spatial resolution of <b>4 m</b>, covers areas more than 
 <b>50,000 square kilometers</b> in China, and contains more than <b>5 billion</b> labeled pixels. It has the advantage of rich categories, 
 large coverage, wide distribution, and high-spatial resolution, which well reflects the distributions of real-world ground objects and 
 can benefit to different land-cover related studies.</p>
 
-<h3>- Distribution and Categories</h3>
+<h4>- Distribution and Categories</h4>
 	<div align="center"><img src="/figure/GID24/GID24example.png" width="100%"></div>
 	<div style="border:5px solid #FFFFFF "></div>
-<h3>- Download</h3>
+<h4>- Download</h4>
 	<p><b>Coming Soon</b></p>
 	<div style="border:1px solid #FFFFFF "></div>
 		
-<h2>Land-Cover Mapping</h2>
+<h3>Land-Cover Mapping</h3>
 <p> We propose an unsupervised domain adaptation approach for large-scale land-cover mapping. Specifically, we introduce an end-to-end siamese 
 network consisting of two branches, which separately process images from the source and target domain. In the target domain branch, image pixels 
 with high-confidence are assigned with pseudo-labels and then utilized for domain joint learning with the source domain branch. To mitigate 
@@ -67,11 +68,11 @@ large Chinese cities using data sources with diverse spatial resolutions. Concre
 Chengdu and Shanghai, <b>Gaofen-1 (GF-1)</b> satellite images are used for Wuhan, <b>Sentinel-2 (ST-2)</b> satellite images are used for Beijing 
 and Guangzhou. The promising results validate the generality of our dataset and approach on different satellite images.</p>
 
-<h3>- Study Areas</h3>
+<h4>- Study Areas</h4>
 	<div align="center"><img src="/figure/GID24/GID24studyarea.png" width="100%"></div>
 	<div style="border:6px solid #FFFFFF "></div>
 
-<h3>- Result Demonstration</h3>
+<h4>- Result Demonstration</h4>
 	<div style="border:6px solid #FFFFFF "></div>
 	<div style="border:0.5px solid #C8C8C8"></div>  
 	<table style= "width:100%;" align="center"><tr>
@@ -84,11 +85,11 @@ and Guangzhou. The promising results validate the generality of our dataset and 
 	<div style="border:0.5px solid #C8C8C8"></div>  
 	<div style="border:7px solid #FFFFFF "></div>
 
-<h3>- Code</h3>
+<h4>- Code</h4>
 	<p><b>Coming Soon</b></p>
 	<div style="border:1px solid #FFFFFF "></div>
 
-<h2>Contact</h2>
+<h3>Contact</h3>
 <p>E-mail : xinyi.tong@dlr.de</p>
 
 <div style="border:20px solid #FFFFFF "></div>
