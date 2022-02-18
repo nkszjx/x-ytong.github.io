@@ -33,11 +33,12 @@
 *{padding: 0; margin: 0}
 #tab {width: 100%;}
 #tab ul       {list-style: none; height: 50px;}
-#tab ul li    {width: 33.08%; float: left; text-align: center; 
+#tab ul li    {width: 33.08%; float: left; text-align: center; line-height: 30px;
 	       border-right: 1px solid #C8C8C8; border-left: 1px solid #C8C8C8; background: #E8E8E8; 
-	       line-height: 30px; filter: alpha (Opacity = 50); -moz-opacity: 0.5; opacity: 0.5;}
+	       filter: alpha (Opacity = 50); -moz-opacity: 0.5; opacity: 0.5;}
 #tab ul li.on {border-top: 1px solid #C8C8C8; background:#FFFFFF; 
-	       line-height: 30px; filter: alpha (Opacity = 100); -moz-opacity: 1; opacity: 1;}
+	       filter: alpha (Opacity = 100); -moz-opacity: 1; opacity: 1;}
+#tab ul li.ho {filter: alpha (Opacity = 75); -moz-opacity: 0.75; opacity: 0.75;}
 #tab div      {width: 100%; margin: 0 0;}
 .hide         {display: none;}
 </style>
@@ -50,6 +51,12 @@
 		var myDiv = myTab.getElementsByTagName("div"); 
 		for(var i = 0; i<myLi.length; i++){
 			myLi[i].index = i;
+			myLi[i].onmouseover = function(){
+				if (this.className != "on"){
+				this.className = "ho";}}
+			myLi[i].onmouseout  = function(){
+				if (this.className != "on"){
+				this.className = "off";}}
 			myLi[i].onclick = function(){
 				for(var j = 0; j < myLi.length; j++){
 					myLi[j].className  = "off";
