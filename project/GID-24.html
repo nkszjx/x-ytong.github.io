@@ -32,7 +32,7 @@
     </style><style id="custom" type="text/css"></style></head>
 
 <body marginheight="0">
-<div align="center"><h1>Large-Scale Land-Cover Mapping with <br>High-Resolution Remote Sensing Images Based on <br>Unsupervised Domain Adaptation</h1></div>
+<div align="center"><h1>Large-Scale Land-Cover Mapping <br>with High-Resolution Remote Sensing Images <br>Based on Unsupervised Domain Adaptation</h1></div>
     
 <div style="border:2px solid #FFFFFF "></div>
 
@@ -43,18 +43,19 @@
 important for studying the complex environment of human activity areas. However, due to two main reasons, high-resolution remote sensing images 
 cannot be easily applied to land-cover mapping over large-scale geographical areas: 1) the lack of high-resolution land-cover datasets that fully 
 reflect the distribution of real-world ground objects; 2) the limited adaptability of classification models to remote sensing images captured 
-from different imaging conditions. We present a large-scale land-cover dataset, <b>Gaofen Image Dataset-24 classes version (GID-24)</b>. GID-24 
-contains 150 high-resolution Gaofen-2 satellite images, which are annotated in a category system covering artificial-constructed, agricultural, 
-and natural classes. Moreover, we propose an unsupervised domain adaptation approach that can adapt classification models trained on labeled 
-dataset to large-scale land-cover mapping on unlabeled data. Based on our dataset and approach, we implement land-cover mapping on 5 large Chinese 
-cities severally using different data sources: PlanetScope, Gaofen-1, and Sentinel-2 satellite images. Over a total study area of 53,088 square 
+from different imaging conditions. 
+In this work, we present a large-scale land-cover dataset, <b>Gaofen Image Dataset-24 classes version (GID-24)</b>. GID-24 contains 150 
+high-resolution Gaofen-2 satellite images, which are annotated in a category system covering artificial-constructed, agricultural, and natural 
+classes. Moreover, we propose an unsupervised domain adaptation approach that can adapt classification models trained on labeled dataset to 
+large-scale land-cover mapping on unlabeled data. Based on our dataset and approach, we implement land-cover mapping on 5 large Chinese cities 
+severally using different data sources: PlanetScope, Gaofen-1, and Sentinel-2 satellite images. Over a total study area of 53,088 square 
 kilometers, our experiments show promising results and demonstrate the practicality of the proposed approach for actual land-cover mapping.</p>
 
 <h2>Land-cover Dataset</h2>
 <p>We present a large-scale land-cover classification dataset, GID-24. It has a spatial resolution of <b>4 m</b>, covers areas more than 
-  <b>50,000 km<sup>2</sup></b> in China, and contains more than <b>5 billion</b> labeled pixels. It has the advantage of rich categories, 
-  large coverage, wide distribution, and high-spatial resolution, which well reflects the distributions of real-world ground objects 
-  and can benefit to different land-cover related studies.</p>
+<b>50,000 square kilometers</b> in China, and contains more than <b>5 billion</b> labeled pixels. It has the advantage of rich categories, 
+large coverage, wide distribution, and high-spatial resolution, which well reflects the distributions of real-world ground objects and 
+can benefit to different land-cover related studies.</p>
 
 <h3><li>Distribution and Categories</li></h3>
 	  <div align="center"><img src="/figure/GID24/GID24example.png" width="70%"></div>
