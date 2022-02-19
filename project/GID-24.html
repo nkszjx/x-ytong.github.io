@@ -31,21 +31,21 @@
 
 <style id="custom" type="text/css">
 * {padding: 0; margin: 0}
-#tab {width: 100%;}
-#tab ul       {list-style: none; height: 50px;}
-#tab ul li    {width: 33.08%; float: left; text-align: center; line-height: 30px;
-	       border-right: 1px solid #C8C8C8; border-left: 1px solid #C8C8C8; background: #E8E8E8; 
-	       filter: alpha (Opacity = 50); -moz-opacity: 0.5; opacity: 0.5;}
-#tab ul li.on {border-top: 1px solid #C8C8C8; background:#FFFFFF; 
-	       filter: alpha (Opacity = 100); -moz-opacity: 1; opacity: 1;}
-#tab ul li.ho {filter: alpha (Opacity = 90); -moz-opacity: 0.9; opacity: 0.9;}
-#tab div      {width: 100%; margin: 0 0;}
-.hide         {display: none;}
+.tabMenu {width: 100%;}
+.tabMenu ul       {list-style: none; height: 50px;}
+.tabMenu ul li    {width: 33.08%; float: left; text-align: center; line-height: 30px; 
+	           border-right: 1px solid #C8C8C8; border-left: 1px solid #C8C8C8; background: #E8E8E8; 
+	           filter: alpha (Opacity = 50); -moz-opacity: 0.5; opacity: 0.5;}
+.tabMenu ul li.on {border-top: 1px solid #C8C8C8; background:#FFFFFF; 
+	           filter: alpha (Opacity = 100); -moz-opacity: 1; opacity: 1;}
+.tabMenu ul li.ho {filter: alpha (Opacity = 90); -moz-opacity: 0.9; opacity: 0.9;}
+.tabMenu div      {width: 100%; margin: 0 0;}
+.hide             {display: none;}
 </style>
 
 <script type="text/javascript">
-	window.onload = function(){
-		var myTab = document.getElementById("tab");    
+	var tab = function(id){
+		var myTab = document.getElementById(id);    
 		var myUl  = myTab.getElementsByTagName("ul")[0];
 		var myLi  = myUl.getElementsByTagName("li");   
 		var myDiv = myTab.getElementsByTagName("div"); 
@@ -63,6 +63,7 @@
 					myDiv[j].className = "hide";}
 				this.className = "on";
 				myDiv[this.index].className = "show";}}}
+	window.onload = function(){tab("tab1"); tab("tab2");}
 </script>
 </head>
 
@@ -91,7 +92,7 @@ large coverage, wide distribution, and high-spatial resolution, which well refle
 can benefit to different land-cover related studies.</p>
 
 <div style="border: 9px solid #FFFFFF "></div>
-<div id = "tab">
+<div id = "tab1" class = "tabMenu">
 	<ul>
 	<li class="on"><h4>Distribution and Categories</h4></li>
         <li class="off"><h4>Detail</h4></li>
@@ -119,7 +120,7 @@ Chengdu and Shanghai, <b>Gaofen-1 (GF-1)</b> satellite images are used for Wuhan
 and Guangzhou. The promising results validate the generality of our dataset and approach on different satellite images.</p>
 
 <div style="border: 9px solid #FFFFFF "></div>
-<div id = "tab">
+<div id = "tab2" class = "tabMenu">
 	<ul>
 	<li class="on"><h4>Study Areas</h4></li>
         <li class="off"><h4>Overview of Approach</h4></li>
