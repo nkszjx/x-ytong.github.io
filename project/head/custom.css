@@ -8,3 +8,6 @@
 .tabMenu ul li.ho {filter: alpha (Opacity = 90); -moz-opacity: 0.9; opacity: 0.9;}
 .tabMenu div      {width: 100%; margin: 0 0;}
 .hide             {display: none;}
+
+.bar {width: 800px; text-align: center; margin-top: 30px; background: rgba(233,233,230,0.5); color: rgba(122,139,139,0.9);
+      border-right: 1px solid rgba(201,195,196,0.5); border-left: 1px solid rgba(201,195,196,0.5);}
