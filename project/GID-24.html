@@ -1,72 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>GID-24</title>
+	<meta charset="UTF-8">
+	<title>GID-24</title>
+	<link type="text/css" href="/head/system.css" rel="stylesheet"/>
 
-<style id="system" type="text/css">
-    * {margin: 0; padding: 0;}
-    body {font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif; 
-          font-size: 15px; line-height: 20px; color: #666666; margin: 10px 13px 10px 13px;}
-    tr,td {font-size: 15px; color: #666666; text-align: justify; text-justify: inter-character;}
-    ul {text-align: justify; text-justify: inter-character;}
-    a {color: #AB9BAB; text-decoration: none;}
-    a:hover {color: rgba(255,103,0,0.6); text-decoration: none;}
-    a img {border: 1px solid transparent;}
-    a img:hover {border: 1px solid #FF6700; filter: alpha (Opacity = 50); -moz-opacity: 0.5; opacity: 0.5;}
-    p {width: 800px; margin-bottom: 9px; text-align: justify; text-justify: inter-character;}
-    h1,h2,h3 {width: 800px; color: #7A8B8B; line-height: 36px;}
-    h1 {margin-top: 60px; margin-bottom: 24px; font-size: 25px;}
-    h2 {margin-top: 30px; font-size: 20px;}
-    h3 {margin-top: 30px; font-size: 18px;}
-    h4 {color: #7A8B8B; line-height: 36px; font-size: 14px;}
-    hr {width: 800px; border: 0; border-bottom: 1px solid #C9C3C4;}
-    code, pre {font-family: Monaco, Andale Mono, Courier New, monospace;}
-    code {background-color: #FEE9CC; color: rgba(0, 0, 0, 0.75); padding: 1px 3px; font-size: 11px; 
-          -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
-    pre {width: 776px; padding: 12px; margin: 6px 0 30px 0; line-height: 15px; font-size: 11px; 
-         border: 1px solid #C9C3C4; white-space: pre-wrap; word-wrap: break-word; display: block;}
-    pre code {background-color: #FFFFFF; color: #666666; font-size: 11px; padding: 0;}
-    table {width: 800px;}
-    @media screen and (min-width: 800px) {body {width: 800px; margin:10px auto;}}
-</style>
 
-<style id="custom" type="text/css">
-* {padding: 0; margin: 0}
-.tabMenu {width: 800px;}
-.tabMenu ul       {list-style: none; height: 50px;}
-.tabMenu ul li    {width: 33.08%; float: left; text-align: center; line-height: 30px; 
-	           border-right: 1px solid #C9C3C4; border-left: 1px solid #C9C3C4; background: #E9E9E6; 
-	           filter: alpha (Opacity = 50); -moz-opacity: 0.5; opacity: 0.5;}
-.tabMenu ul li.on {border-top: 1px solid #C9C3C4; background:#FFFFFF; 
-	           filter: alpha (Opacity = 100); -moz-opacity: 1; opacity: 1;}
-.tabMenu ul li.ho {filter: alpha (Opacity = 90); -moz-opacity: 0.9; opacity: 0.9;}
-.tabMenu div      {width: 100%; margin: 0 0;}
-.hide             {display: none;}
-</style>
-
-<script type="text/javascript">
-	var tab = function(id){
-		var myTab = document.getElementById(id);    
-		var myUl  = myTab.getElementsByTagName("ul")[0];
-		var myLi  = myUl.getElementsByTagName("li");   
-		var myDiv = myTab.getElementsByTagName("div"); 
-		for(var i = 0; i<myLi.length; i++){
-			myLi[i].index = i;
-			myLi[i].onmouseover = function(){
-				if (this.className == "off"){
-				this.className = "ho";}}
-			myLi[i].onmouseout  = function(){
-				if (this.className == "ho"){
-				this.className = "off";}}
-			myLi[i].onclick = function(){
-				for(var j = 0; j < myLi.length; j++){
-					myLi[j].className  = "off";
-					myDiv[j].className = "hide";}
-				this.className = "on";
-				myDiv[this.index].className = "show";}}}
-	window.onload = function(){tab("tab1"); tab("tab2");}
-</script>
 </head>
 
 <body marginheight="0">
