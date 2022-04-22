@@ -9,24 +9,25 @@
 </head>
 
 <body marginheight="0">
-<div align="center"><h1>Large-Scale Land-Cover Mapping with High-Resolution Remote Sensing Images Based on Unsupervised Domain Adaptation</h1></div>
+<div align="center"><h1>Enabling Country-Scale Land Cover Mapping with Meter-Resolution Satellite Imagery</h1></div>
 
 <p style="text-align: center;">Xin-Yi Tong, Gui-Song Xia, Xiao Xiang Zhu</p>
 
 <h2>Introduction</h2>
-<p>High-resolution remote sensing images can provide abundant, detailed spatial information for land-cover classification, which is particularly 
-important for studying the complex environment of human activity areas. However, high-resolution remote sensing images cannot be easily applied 
-to land-cover mapping over large-scale geographical areas due to two main reasons: 1) the lack of high-resolution land-cover datasets that fully 
-reflect the distribution of real-world ground objects; 2) the limited generalizability of classification models against distribution shifts of the 
-input satellite imageries due to, e.g., geographical differences or acquisition conditions. 
-In this work, we present a large-scale land-cover dataset, <b>Five-Billion-Pixels</b>. It contains more than 5 billion labeled pixels of 150 
-high-resolution Gaofen-2 satellite images, annotated in a category system covering artificial-constructed, agricultural, and natural classes. 
-Moreover, we propose an unsupervised domain adaptation approach that can adapt classification models trained on labeled dataset (referred to as the 
-source domain) to large-scale land-cover mapping on unlabeled data (referred to as the target domain). Specifically, we introduce an end-to-end 
-siamese network consisting of two branches, which separately process images from the source and target domain. In the target domain branch, image 
-pixels with high-confidence are assigned with pseudo-labels and then utilized for domain joint learning with the source domain branch. To mitigate 
-negative adaptation, we adopt dynamic pseudo-label assignment and class balancing strategy in the network. Based on our dataset and approach, we 
-implement land-cover mapping on 5 large Chinese cities severally using different data sources: PlanetScope, Gaofen-1, and Sentinel-2 satellite images. </p>
+<p>High-resolution satellite images can provide abundant, detailed spatial information for land cover classification, which is particularly 
+important for studying the complicated environment of human activity areas. However, due to the complex land cover patterns, the costly 
+training sample collections, and the severe distribution shifts of satellite imageries caused by, e.g., geographical differences or acquisition 
+conditions, few studies have applied high-resolution images to land cover mapping in detailed categories at large-scale. To fill this gap, we 
+present a large-scale land cover dataset, <b>Five-Billion-Pixels</b>. It contains more than 5 billion labeled pixels of 150 high-resolution 
+Gaofen-2 (4 m) satellite images, annotated in a 24-category system covering artificial-constructed, agricultural, and natural classes. In the 
+meantime, we propose a deep learning-based unsupervised domain adaptation approach that can transfer classification models trained on labeled 
+dataset (referred to as the source domain) to unlabeled data (referred to as the target domain) for large-scale land cover mapping. Specifically, 
+we introduce an end-to-end siamese network employing dynamic pseudo-label assignment and class balancing strategy to perform adaptive domain 
+joint learning. To validate the generality of our dataset and approach across different satellite imageries, we implement land cover mapping 
+on 5 Chinese megacities severally using: PlanetScope (3 m), Gaofen-1 (8 m), and Sentinel-2 (10 m) satellite images. Over a total study area of 
+53,088 square kilometers, the experiments show promising results even though the input images are entirely unlabeled. The proposed approach, 
+trained with the <b>Five-Billion-Pixels</b> dataset, enables high quality and detailed land cover mapping across the whole country of China at 
+meter-resolution.</p>
 
 <h3>Land-Cover Dataset</h3>
 <p>We present a large-scale land-cover classification dataset, <b>Five-Billion-Pixels</b>. It has a spatial resolution of <b>4 m</b>, covers areas 
@@ -58,9 +59,9 @@ to different land-cover related studies.</p>
 network consisting of two branches, which separately process images from the source and target domain. In the target domain branch, image pixels 
 with high-confidence are assigned with pseudo-labels and then utilized for domain joint learning with the source domain branch. To mitigate 
 negative adaptation, we adopt dynamic pseudo-label assignment and class balancing strategy in the network. We perform land-cover mapping on 5 
-large Chinese cities using data sources with diverse spatial resolutions. Concretely, <b>PlanetScope (PS)</b> satellite images are used for 
+Chinese megacities using diverse satellite images. Concretely, <b>PlanetScope (PS)</b> satellite images are used for 
 Chengdu and Shanghai, <b>Gaofen-1 (GF-1)</b> satellite images are used for Wuhan, <b>Sentinel-2 (ST-2)</b> satellite images are used for Beijing 
-and Guangzhou. The promising results validate the generality of our dataset and approach on different satellite images.</p>
+and Guangzhou. The promising results validate the generality of our dataset and approach across different satellites and regions.</p>
 
 <div style="border: 9px solid #FFFFFF"></div>
 <div id = "tab2" class = "tabMenu">
@@ -90,11 +91,11 @@ and Guangzhou. The promising results validate the generality of our dataset and 
 <p> Due to the large size of resulting maps, only the central area of each city is shown.</p>
 	<hr></hr> 
 	<table align="center"><tr>
-	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_beijing.html">  <img src="/figure/GID24/GID24beijingsmall.png"   style="height:168px;"></a> <br> Beijing   </td>
-	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_chengdu.html">  <img src="/figure/GID24/GID24chengdusmall.png"   style="height:168px;"></a> <br> Chengdu   </td>
-	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_guangzhou.html"><img src="/figure/GID24/GID24guangzhousmall.png" style="height:168px;"></a> <br> Guangzhou </td>
-	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_shanghai.html"> <img src="/figure/GID24/GID24shanghaismall.png"  style="height:168px;"></a> <br> Shanghai  </td>
-	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_wuhan.html">    <img src="/figure/GID24/GID24wuhansmall.png"     style="height:168px;"></a> <br> Wuhan     </td>
+	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_beijing.html">  <img src="/figure/GID24/GID24beijingsmall.png"   style="height:168px;"></a> <br> Beijing (ST-2)   </td>
+	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_chengdu.html">  <img src="/figure/GID24/GID24chengdusmall.png"   style="height:168px;"></a> <br> Chengdu (PS)     </td>
+	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_guangzhou.html"><img src="/figure/GID24/GID24guangzhousmall.png" style="height:168px;"></a> <br> Guangzhou (ST-2) </td>
+	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_shanghai.html"> <img src="/figure/GID24/GID24shanghaismall.png"  style="height:168px;"></a> <br> Shanghai (PS)    </td>
+	<td style="text-align:center;"><a href="https://x-ytong.github.io/project/Five-Billion-Pixels_wuhan.html">    <img src="/figure/GID24/GID24wuhansmall.png"     style="height:168px;"></a> <br> Wuhan (GF-1)     </td>
 	</tr></table>
 	<hr></hr>  
 <div style="border: 9px solid #FFFFFF"></div>
